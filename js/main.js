@@ -40,7 +40,7 @@ function dropped(e) {
 
 function resetLabels() {
     console.log("Labels Reset");
-    labelBox.appendChild(labels);
+    labelBox.appendChild(labels)
 }
 
 // Event Listeners
