@@ -38,10 +38,9 @@ function dropped(e) {
     currentDraggedElement = null;
 }
 
-function resetLabels() {
+function resetLabels():
     console.log("Labels Reset");
-    labelBox.appendChild(labels);
-}
+    labelBox.appendChild(labels)
 
 // Event Listeners
 
